@@ -18,7 +18,6 @@ import common
 import re
 
 def FullOTA_Assertions(info):
-  AddModemAssertion(info, info.input_zip)
   AddVendorAssertion(info, info.input_zip)
   return
 
@@ -27,7 +26,6 @@ def FullOTA_InstallEnd(info):
   return
 
 def IncrementalOTA_Assertions(info):
-  AddModemAssertion(info, info.target_zip)
   AddVendorAssertion(info, info.target_zip)
   return
 

@@ -1,3 +1,2 @@
-require version-modem=2019-07-31 17:51:46
 require version-vendor=1564690333,28
 require version-miui=10.3.11.0
