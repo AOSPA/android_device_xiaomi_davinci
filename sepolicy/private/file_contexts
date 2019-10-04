@@ -17,7 +17,7 @@
 /sys/devices/virtual/touch/tp_dev/fod_status						u:object_r:sysfs_tp_fodstatus:s0
 
 # HALs
-/system/bin/hw/android\.hardware\.light@2\.0-service\.xiaomi_davinci				u:object_r:hal_light_davinci_exec:s0
 /system/bin/hw/vendor\.pa\.biometrics\.fingerprint\.inscreen@1.0-service\.xiaomi_davinci	u:object_r:hal_pa_fod_xiaomi_davinci_exec:s0
 /system/bin/hw/vendor\.pa\.camera\.motor@1.0-service\.xiaomi_davinci 				u:object_r:hal_pa_camera_motor_xiaomi_davinci_exec:s0
+/(product|system/product)/vendor_overlay/[0-9]+/bin/hw/android\.hardware\.light@2\.0-service    u:object_r:hal_light_default_exec:s0
 
