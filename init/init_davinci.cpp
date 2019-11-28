@@ -68,4 +68,6 @@ void vendor_load_properties()
         property_override("ro.product.system.model", "Redmi K20");
         property_override("ro.product.vendor.model", "Redmi K20");
     }
+
+    property_override("ro.oem_unlock_supported", "0");
 }
