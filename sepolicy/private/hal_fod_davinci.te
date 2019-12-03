@@ -1,0 +1,25 @@
+type hal_fod_davinci, coredomain, domain;
+hal_server_domain(hal_fod_davinci, hal_pa_fod)
+
+type hal_fod_davinci_exec, exec_type, system_file_type, file_type;
+init_daemon_domain(hal_fod_davinci)
+
+# Allow access to the HALs
+hal_client_domain(hal_fod_davinci, hal_fingerprint)
+
+# Allow binder communication with hal_display_default
+binder_call(hal_fod_davinci, hal_display_default)
+
+# Allow binder communication with hal_fingerprint
+binder_call(hal_fod_davinci, hal_fingerprint)
+
+# Allow hal_fod_davinci to hal_display_hwservice
+allow hal_fod_davinci hal_display_hwservice:hwservice_manager find;
+allow hal_fod_davinci hal_fingerprint_hwservice_xiaomi:hwservice_manager find;
+
+# Allow hal_fod_davinci to hal_fingerprint_hwservice
+allow hal_fod_davinci hal_fingerprint_hwservice:hwservice_manager find;
+
+# Allow hal_fod_davinci to read and write to sysfs_graphics, sysfs_tp_fodhbm and sysfs_tp_fodstatus
+allow hal_fod_davinci sysfs_graphics:dir search;
+allow hal_fod_davinci { sysfs_graphics sysfs_tp_fodhbm sysfs_tp_fodstatus }:file rw_file_perms;

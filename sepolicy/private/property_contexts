@@ -1,0 +1,2 @@
+vendor.camera.aux.packageblacklist  u:object_r:vendor_camera_prop:s0
+vendor.camera.hal1.packagelist      u:object_r:vendor_camera_prop:s0
