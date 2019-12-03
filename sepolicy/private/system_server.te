@@ -1,2 +1,3 @@
-# Allow system_server to get vendor_camera_prop
+# Allow system_server to get persist_camera_prop and vendor_camera_prop
+get_prop(system_server, persist_camera_prop)
 get_prop(system_server, vendor_camera_prop)
