@@ -106,7 +106,7 @@ TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
 BOARD_HAVE_QCOM_FM := true
 
 # Gestures
-TAP_TO_WAKE_EVENT_NODE := "/dev/input/event2"
+TARGET_TAP_TO_WAKE_EVENT_NODE := "/dev/input/event2"
 
 # HIDL
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := vendor/qcom/opensource/core-utils/vendor_framework_compatibility_matrix.xml
