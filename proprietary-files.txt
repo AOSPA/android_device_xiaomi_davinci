@@ -1,6 +1,6 @@
 # Audio - from OnePlus7Pro - QKQ1.190716.003
-vendor/lib64/soundfx/libvolumelistener.so:lib64/soundfx/libvolumelistener.so|1b16cd00fd2144e860f99c0869c2db1489c789a2
-vendor/lib/soundfx/libvolumelistener.so:lib/soundfx/libvolumelistener.so|e6c1f1bfb7bd5cfb36131aaff0d4e8c74833865d
+vendor/lib64/soundfx/libvolumelistener.so:vendor_overlay/lib64/soundfx/libvolumelistener.so|1b16cd00fd2144e860f99c0869c2db1489c789a2
+vendor/lib/soundfx/libvolumelistener.so:vendor_overlay/lib/soundfx/libvolumelistener.so|e6c1f1bfb7bd5cfb36131aaff0d4e8c74833865d
 
 # CNE
 product/framework/com.quicinc.cne.api-V1.1-java.jar
