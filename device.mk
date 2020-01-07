@@ -104,6 +104,10 @@ PRODUCT_PACKAGES += \
     SecureElement \
     Tag
 
+# ParanoidDoze
+PRODUCT_PACKAGES += \
+    ParanoidDoze
+
 # Perf
 -include vendor/qcom/common/av/qti-av.mk
 -include vendor/qcom/common/bt/qti-bt.mk
