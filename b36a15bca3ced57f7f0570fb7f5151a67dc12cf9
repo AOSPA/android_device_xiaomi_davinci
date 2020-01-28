@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "abc51925_78b79b51",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 9
+      },
+      "lineNbr": 165,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-01-28T20:02:44Z",
+      "side": 1,
+      "message": "Should we make a flag for this in QCOM SEPolicy?",
+      "revId": "b36a15bca3ced57f7f0570fb7f5151a67dc12cf9",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
