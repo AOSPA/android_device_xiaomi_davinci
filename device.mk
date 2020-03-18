@@ -111,11 +111,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     ParanoidDoze
 
-# Perf
--include vendor/qcom/common/av/qti-av.mk
--include vendor/qcom/common/bt/qti-bt.mk
--include vendor/qcom/common/perf/qti-perf.mk
-
 # Performance
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/perfconfigstore.xml:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/$(PRODUCT_TARGET_VNDK_VERSION)/etc/perf/perfconfigstore.xml
@@ -127,6 +122,14 @@ PRODUCT_PACKAGES += \
 # QCOM
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/privapp-permissions-qti.xml:system/etc/permissions/privapp-permissions-qti.xml
+
+# QTI common
+TARGET_COMMON_QTI_COMPONENTS := \
+    av \
+    bt \
+    perf \
+    telephony \
+    wfd
 
 # Recovery
 PRODUCT_PACKAGES += \
