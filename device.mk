@@ -116,6 +116,10 @@ PRODUCT_PACKAGES += \
 -include vendor/qcom/common/bt/qti-bt.mk
 -include vendor/qcom/common/perf/qti-perf.mk
 
+# Performance
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/perfconfigstore.xml:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/$(PRODUCT_TARGET_VNDK_VERSION)/etc/perf/perfconfigstore.xml
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power@1.2-service
