@@ -1067,4 +1067,7 @@
          manually by the user. Off by default, since the expected haptic feedback may not be
          available on some devices. -->
     <bool name="config_enableHapticTextHandle">true</bool>
+
+     <!-- Whether the device has a popup camera -->
+    <bool name="config_hasPopupCamera">true</bool>
 </resources>
