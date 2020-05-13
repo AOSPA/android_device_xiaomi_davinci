@@ -1,0 +1,3 @@
+type hal_motor_default, domain;
+
+allow hal_motor_default exported2_default_prop:file read;

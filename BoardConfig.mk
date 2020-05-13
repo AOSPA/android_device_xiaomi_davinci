@@ -153,16 +153,10 @@ TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)
 USE_SENSOR_MULTI_HAL := true
 
 # Sepolicy
-TARGET_EXCLUDE_QCOM_SEPOLICY:= true
+TARGET_SEPOLICY_DIR := msmsteppe
 
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
-    $(DEVICE_PATH)/sepolicy/private \
-    device/qcom/sepolicy/generic/private \
-    device/qcom/sepolicy/qva/private
-
-BOARD_PLAT_PUBLIC_SEPOLICY_DIR += \
-    device/qcom/sepolicy/generic/public \
-    device/qcom/sepolicy/qva/public
+    $(DEVICE_PATH)/sepolicy/private
 
 # Treble
 BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
