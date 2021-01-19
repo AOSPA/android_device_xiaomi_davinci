@@ -40,7 +40,8 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    vendor.aospa.biometrics.fingerprint.inscreen@1.0-service
+    vendor.aospa.biometrics.fingerprint.inscreen@1.0-service \
+    vendor.xiaomi.hardware.touchfeature@1.0.vendor
 
 PRODUCT_COPY_FILES += \
     vendor/pa/config/permissions/vendor.aospa.biometrics.fingerprint.inscreen.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/vendor.aospa.biometrics.fingerprint.inscreen.xml
