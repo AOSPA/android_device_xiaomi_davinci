@@ -16,6 +16,24 @@
       "message": "I think we can also kill the build description",
       "revId": "e6e05c78408b9683d33ab8a87411d1d706ac9371",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4c150796_8b9de5d3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000649
+      },
+      "writtenOn": "2021-02-25T17:08:37Z",
+      "side": 1,
+      "message": "Done.",
+      "parentUuid": "c9eb12b2_1de7207d",
+      "revId": "e6e05c78408b9683d33ab8a87411d1d706ac9371",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
